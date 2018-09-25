@@ -11,12 +11,16 @@ addons:
     packages:
     - git
     - golang
+    - mercurial
+    - python-logilab-common
 before_install:
  - export GOPATH=~/go
  - go get github.com/BurntSushi/toml-test
  - git clone https://github.com/BurntSushi/toml-test
+ - hg clone http://hg.logilab.org/review/logilab/common/
 install:
  # - pip install tox-travis
+ - python logilab-common/setup.py install
  - pip install pytest
 # - python setup.py install
  # - chmod +x ./tests/*.sh
