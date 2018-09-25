@@ -22,12 +22,12 @@ install:
  # - pip install tox-travis
 # - python common/setup.py install
  - pip install logilab-common
- - pip install pytest
+ - pip install -U pytest
 # - python setup.py install
  # - chmod +x ./tests/*.sh
 script:
- - pytest
  - ~/go/bin/toml-test ./tests/decoding_test3.sh
+ - pytest
  # - tox -e py
  # - tox -e check
  - 
