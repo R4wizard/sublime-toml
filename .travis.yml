@@ -12,7 +12,7 @@ addons:
     - git
     - golang
     - mercurial
-    - python-logilab-common
+    # - python-logilab-common
 before_install:
  - export GOPATH=~/go
  - go get github.com/BurntSushi/toml-test

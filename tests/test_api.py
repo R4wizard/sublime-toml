@@ -1,9 +1,17 @@
-import toml
 import copy
 import pytest
 import os
 import sys
 
+
+
+td = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, "st3"))
+# print(td)
+sys.path.append(td)
+
+
+
+import toml
 from toml.decoder import InlineTableDict
 
 
