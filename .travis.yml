@@ -1,0 +1,29 @@
+language: python
+cache: pip
+python:
+ - "3.3"
+ - "3.6"
+
+notifications:
+  email: false
+addons:
+  apt:
+    packages:
+    - git
+    - golang
+before_install:
+ - export GOPATH=~/go
+ - go get github.com/BurntSushi/toml-test
+ # - git clone https://github.com/BurntSushi/toml-test
+install:
+ # - pip install tox-travis
+ - pip install pytest
+# - python setup.py install
+ # - chmod +x ./tests/*.sh
+script:
+ - ~/go/bin/toml-test ./tests/decoding_test3.sh
+ # - tox -e py
+ # - tox -e check
+ - 
+
+
