@@ -21,7 +21,7 @@ before_install:
 install:
  # - pip install tox-travis
 # - python common/setup.py install
- # - pip install logilab-common
+ - pip install logilab-common
  - pip install pytest
 # - python setup.py install
  # - chmod +x ./tests/*.sh
