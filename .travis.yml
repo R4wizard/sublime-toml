@@ -20,7 +20,7 @@ before_install:
  - hg clone http://hg.logilab.org/review/logilab/common/
 install:
  # - pip install tox-travis
- - python logilab-common/setup.py install
+ - python common/setup.py install
  - pip install pytest
 # - python setup.py install
  # - chmod +x ./tests/*.sh
