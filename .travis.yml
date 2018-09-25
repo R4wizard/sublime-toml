@@ -22,7 +22,7 @@ install:
  # - pip install tox-travis
 # - python common/setup.py install
  - pip install logilab-common
- - pip install -U pytest
+ - pip install -I "pytest<3.3"
 # - python setup.py install
  # - chmod +x ./tests/*.sh
 script:
