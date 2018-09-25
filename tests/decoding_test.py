@@ -6,10 +6,8 @@ import sys
 import os
 
 td = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, "st3"))
-# print(td)
 sys.path.append(td)
 
-# import st3.toml as toml
 import toml
 
 if sys.version_info < (3,):
