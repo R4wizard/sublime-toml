@@ -6,7 +6,7 @@ a package manager
 for the [Sublime Text](http://sublimetext.com/) text editor.
 
 
-## How to use *psutil* as a dependency
+## How to use *toml* as a dependency
 
 In order to tell Package Control
 that you are using the *psutil* module
