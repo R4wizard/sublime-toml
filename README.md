@@ -1,4 +1,4 @@
-# *toml* module for Package Control
+# *python-toml* module for Package Control
 
 This is the *[toml](https://github.com/uiri/toml)* module
 bundled for usage with [Package Control](http://packagecontrol.io/),
@@ -26,7 +26,7 @@ with the following contents:
 ```
 
 If the file exists already,
-add `"toml"` to the every dependency list.
+add `"python-toml"` to the every dependency list.
 
 Then run the **Package Control: Satisfy Dependencies** command
 to make Package Control
