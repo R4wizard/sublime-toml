@@ -9,7 +9,7 @@ for the [Sublime Text](http://sublimetext.com/) text editor.
 ## How to use *toml* as a dependency
 
 In order to tell Package Control
-that you are using the *psutil* module
+that you are using the *sublime-toml* module
 in your ST package,
 create a `dependencies.json` file
 in your package root
@@ -19,7 +19,7 @@ with the following contents:
 {
    "*": {
       ">=3000": [
-         "toml"
+         "python-toml"
       ]
    }
 }
